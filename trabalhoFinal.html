@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<title> Trabalho Final </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="trabalhoFinal.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+    </style>
+
+   <body class="w3-center-grey">
+      <form action="" oninput="cmpOut.value = fname.value">
+        <p style="text-align:center font: 15">Instrumentos Musicais</p>
+
+         <fieldset>
+          <legend>Cadastro</legend>
+         <div class="boxer">  
+            <label for="fname">Nome:</label>
+            <input type="text" placeholder="Digite seu nome" id="fname" name="fname" maxlength="50" required size="50">
+            <br><br>
+            <label for="fname">Senha:</label>
+            <!--password coloca máscara na digitação da senha-->
+            <input type="password" placeholder="Digite a senha">
+            <br><br>
+            <!--Selecionando a data de nascimento-->
+            Sua data de nascimento: <br>
+            <input type="date">
+            <br><br>
+            Sexo: <br>
+            <input type="radio" name="sexo" value="M">Masculino <br>
+            <input type="radio" name="sexo" value="F">Feminimo <br>
+            <input type="radio" name="sexo" value="O">Outro 
+            <br><br>
+            <!--Verifica se seu email está válido-->
+            Seu email: <br>
+            <input type="email">
+            <br><br>
+            <!--Serve para selecionar e enviar fotos-->
+            Envie sua foto: <br>
+            <input type="file" accept="image/png, image/gif">
+            <br><br>
+            <label for="cmpHobbies">Oque Deseja</label>
+            <br>
+              <select name="cmpHobbies" id="cmpHobbies" size="5" multiple>
+               <option value="1" selected>Violão</option>
+               <option value="2">Guitarra</option>
+               <option value="3" selected>Gaita</option>
+               <option value="4">Bateria</option>
+               <option value="5">Baixo</option>
+               <option value="6">Ukulele</option>
+               <option value="7">Cavaquinho</option>
+               <option value="8">Viola</option>
+               <option value="9">Teclado</option>
+               <option value="10">Pandeiro</option>
+               <option value="11">Violino</option>
+               <option value="12">Piano</option>
+               <option value="13">Saxofone</option>
+               <option value="14">Trompete</option>
+               <option value="15">Triângulo</option>
+             </select>
+               <br><br>
+              <!--submit envia os dados do for para o servidor-->
+              <input type="submit" value="Enviar"><br><br>
+              <!--reset reinicializa o formulário ao estado inicial de dados-->
+              <input type="reset" value="Reiniciar dados"><br><br>
+         </div>  
+         <div class="boxer">
+        </div>
+
+        <div class="boxer">       
+        </div>
+
+        <div class="boxer">
+        </div>
+         
+         
+         <div class="boxer">
+             <img src="logotipo.png.jpeg" style="width: 600px;" alt="logotipo">
+         </div>
+
+         </fieldset>
+
+         <fieldset>
+         <legend>Instrumentos</legend>            
+            <div class="box">
+                <span> Violão </span>
+                <img src="violao.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Guitarra </span>
+                <img src="guitarra.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Cavaquinho </span>
+                <img src="cavaquinho.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Ukulele </span>
+                <img src="ukulele.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Violino </span>
+                <img src="violino.png.jpeg" style="width: 98px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Viola </span>
+                <img src="viola.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Baixo </span>
+                <img src="baixo.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Gaita </span>
+                <img src="gaita.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <br><br><br><br>
+            <div class="box">
+                <span> Bateria </span>
+                <img src="bateria.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Teclado </span>
+                <img src="teclado.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Pandeiro </span>
+                <img src="pandero.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Piano </span>
+                <img src="piano.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Saxofone </span>
+                <img src="saxofone.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Trompete </span>
+                <img src="trompete.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Triângulo </span>
+                <img src="triangulo.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+            <div class="box">
+                <span> Tamborim </span>
+                <img src="tamborin.png.jpeg" style="width: 140px;" alt="Avatar">
+            </div>
+
+
+            <style>
+            div.box {
+                width: 150px;
+                display: inline-block;
+            }
+            </style>
+
+            <style>
+            div.boxer {
+                width: 150px;
+                display: inline-block;
+            }
+            </style>
+
+        </fieldset>
+        <br><br>
+        <div class="LINK">
+        </div>
+
+        <div class="link">
+        </div>
+
+        <div class="link">
+            <a href="http://upf.br" target="_blank">UPF</a>
+        </div>
+
+        <div class="link">
+            <a href="aula03/calculadora.html">Calculadora</a>
+        </div>
+
+        <div class="link">
+            <a href="aula05/curriculo.html">Currículo</a>
+        </div>
+
+        <div class="link">
+            <a href="aula06/02 - exemplos.html">Exemplos</a>
+        </div>
+
+        <div class="link">
+            <a href="aula07/matricula.html">Matricula</a>
+        </div>
+
+        <div class="link">
+            <a href="aula10/estilo.html">Estilo CSS</a>
+        </div>
+
+        <div class="link">
+            <a href="TrabalhoHtml/trabalho.html">Curriculum</a>
+        </div>
+        
+        <br><br>
+        <!--disabled serve para desabiltar o campo-->
+        <div class="bom">
+            Versão deste site: <br>
+            <input type="text" value="Versão 1.5" disabled>
+        </div>
+
+        <div class="bom">
+        </div>
+
+        <div class="bom">
+        </div>
+
+        <div class="bom">
+        </div>
+
+        <div class="bom">
+          <footer class="w3-container w3-teal w3-center w3-margin-top">
+            <a class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com/" target="_blank"></a>
+            <a class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com/" target="_blank"></a>
+            <a class="fa fa-twitter w3-hover-opacity" href="https://twitter.com/login" target="_blank"></a>
+            <a class="fa fa-whatsapp w3-hover-opacity" href="https://web.whatsapp.com/" target="_blank"></a>
+          </footer>
+        </div>
+
+          <style>
+            div.bom {
+                width: 150px;
+                display: inline-block;
+            }
+            </style>
+
+        <style>
+            div.link {
+                width: 150px;
+                display: inline-block;
+            }
+            </style>
+      </form>
+
+
+   </body>
+
+</html>
